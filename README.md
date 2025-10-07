@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # vps_termux_ubuntu
 ini berjalan di termux ubuntu
 install mongodb
@@ -25,16 +25,12 @@ lalu kamu lakukan penginstalannya
 sudo apt install mongodb-org -y
 ```
 selesai
-=======
-# vps_termux
-vps termux nodejs
-cara nya
 ```
-git clone https://github.com/GMhabib/vps_termux.git
+git clone https://github.com/GMhabib/vps_termux_ubuntu.git
 ```
 kemudian pindah direktori
 ```
-cd vps_termux
+cd vps_termux_ubuntu
 ```
 kemudian install
 ```
@@ -44,5 +40,14 @@ kemudian jalankan di termux dengan url https://habib.serveo.net
 ```
 node server.js
 ```
-selesai terima kasih
->>>>>>> b84f547 (vps_termux_ubuntu)
+jika mau verify subdomain serveo.net
+kamu bisa gunakan perintah
+```
+ssh -R habib:80:localhost:3000 serveo.net
+```
+lalu salin url github dan jalankan ke browser
+jika sudah tekan ctrl + c
+dan jalankan lagi
+```
+node server.js
+```
